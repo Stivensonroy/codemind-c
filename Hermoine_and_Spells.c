@@ -10,7 +10,7 @@ int main(){
         printf("%d",a+c);
         
     }
-    else {
+    else{
         printf("%d",a+b);
     }
 }
