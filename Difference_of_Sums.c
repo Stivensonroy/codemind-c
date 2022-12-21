@@ -5,7 +5,6 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         s=s+i;
-        
     }
     for(int j=1;j<=n;j++){
         t=t+pow(j,2);
