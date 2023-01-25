@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main(){
-    int m;
+int main()
+{
+    int m,h,n;
     scanf("%d",&m);
-    int hrs=m/60;
-    int min=(m%60)%60;
-    printf("%d Hour(s) %d Minute(s)",hrs,min);
+    h=m/60;
+    n=m%60;
+    printf("%d Hour(s) %d Minute(s)",h,n);
 }
